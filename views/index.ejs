@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <%- include('./partials/header.ejs')%>
+<body class="bg-light">
+  <nav class="navbar navbar-expand-lg  navbar-light bg-dark">
+    <div class="container">
+    <a class="navbar-brand" href="#" ><img class="logo" style="width: 45px;" src="/images/logo.jpeg" alt="logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/">protfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="/" class="nav-link">contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-lg-4 bg-dark text-white text-center py-4">
+        <div class="header-left">
+          <img src="/images/me.jpg" alt="" class="img-thumbnail rounded-circle mb-2">
+          <h1 class="display-5">Seun Olukey</h1>
+          <h4 class="lead  text-uppercase text-white-50 mb-4">Backend Developer</h4>
+        </div>
+
+        <div>
+          <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">Contact</h5>
+
+          <ul class="list-unstyled text-white-50 ml-5 py-2 text-left">
+            <li class="list-item">
+              <i class="fa fa-mobile mx-4" aria-hidden="true"></i>
+              +234 803 775 238
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-envelope mx-4" aria-hidden="true"></i>
+              seunolukeye2000@gmail.com
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-linkedin-square mx-4" aria-hidden="true"></i>
+              <a class="text-white" href="https://www.linkedin.com/in/seun-olukeye-9a1b26128/">Seun Olukeye</a>
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-github mx-4" aria-hidden="true"></i>
+              <a class="text-white" href="https://github.com/Olukeye">Olukeye</a>
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-map-marker mx-4" aria-hidden="true"></i>
+              Lagos, Nigeria
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">Skills</h5>
+          <ul class="list-unstyled text-white-50 ml-5 py-2 text-left text-capitalize">
+            <li class="list-item">
+              <i class="fa fa-html5 mx-4" aria-hidden="true"></i>
+              Html</li>
+            <li class="list-item">
+              <i class="fa fa-css3 mx-4" aria-hidden="true"></i>
+              Css</li>
+            <li class="list-item">
+              <i class="fa fa-desktop mx-4" aria-hidden="true"></i>  
+              React</li>
+            <li class="list-item">
+              <i class="fa fa-desktop mx-4" aria-hidden="true"></i>
+              Node.js</li>
+            <li class="list-item">
+              <i class="fa fa-desktop mx-4" aria-hidden="true"></i>
+              Express</li>
+            <li class="list-item">
+              <i class="fa fa-desktop mx-4" aria-hidden="true"></i>
+              MongoDB</li>
+            <li class="list-item">
+              <i class="fa fa-desktop mx-4" aria-hidden="true"></i>
+              Postgressql</li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">Education</h5>
+          <ul class="list-unstyled text-white-50 ml-5 py-2 text-left text-capitalize"></ul>
+            <li class="list-item">Manufacturing Engineering (HND), Federal Polytechnic Ekiti</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-lg-8 bg-light text-dark py-4 px-5">
+        <div class="header-right">
+          <h4 class="text-uppercase">Profile</h4>
+          <hr>
+          <p class="text-dark">I am a focused, hardworking and determined individual with a Bachelors degree in Computer Science from Nnamdi Azikiwe University Awka. <br>
+            I am very innovative and able to work with my initiative, always willing to learn new and better methods to solve problems, quick to adapt to new and fast changing technologies and able to thrive and add value to team based ventures.</p>
+        </div>
+
+        <div>
+          <h4 class="text-uppercase">Working Experience</h4>
+          <hr>
+          <p class="text-dark">I am currently undergoing the HNG Internship in software engineering</p>
+          <img class="img-fluid mb-5" src="/images/brand-logo.png" alt="">
+        </div>
+
+        <div>
+          <h4 class="text-uppercase">Projects</h4>
+          <hr>
+
+          <ul class="list">
+            <li class="list-item">
+              <h5 class="display-6 text-uppercase">E-Commerce Shop</h5>
+              <p class="text-black-50">
+                A simple E-commerce shop with backend REST api using Node.js, express.js and MongoDB and React. 
+              </p>
+            </li>
+            <a href="https://vevi-store.herokuapp.com/"><button class="btn btn-secondary mb-3">Learn more </button></a>
+            
+            <li class="list-item mt-3">
+              <h5 class="display-6 text-uppercase">Management App</h5>
+              <p class="text-black-50">
+                A fake api Management app using Node.js, express.js and react. 
+              </p>
+            </li>
+            <a href="https://olukeye.github.io/Contact-Manager-With_React/#/"><button class="btn btn-secondary mb-5">Learn more </button></a>
+        <div>
+
+          <h4 class="text-uppercase">Contact Me</h4>
+          <hr>
+          <form method="POST" action="/contactinfo" id="form">
+            <div class="mb-3 pt-2">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your name">
+            </div>
+        
+        
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            <div class="mb-3">
+              <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone numer">
+            </div>
+
+            <div class="mb-3">
+              <textarea class="form-control" name="message" placeholder="Enter your message" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- include('./partials/footer.ejs')%>
+</body>
+</html>
