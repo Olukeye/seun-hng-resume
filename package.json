@@ -1,0 +1,40 @@
+{
+  "name": "seun-hng-resume",
+  "version": "1.0.0",
+  "description": "responsive resume with Express.j",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olukeye/seun-hng-resume.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Heroku",
+    "EJS",
+    "Bootstrap",
+    "Nodemailer"
+  ],
+  "author": "Olukeye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olukeye/seun-hng-resume/issues"
+  },
+  "homepage": "https://github.com/Olukeye/seun-hng-resume#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

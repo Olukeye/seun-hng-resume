@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/header.ejs')%>
+  <body class="bg-light">
+    <div class="jumbotron">
+      <h1 class="display-4">
+        <div class="alert alert-success" role="alert">
+          <p class="alert-link"><%= message %></p>
+          .
+        </div>
+      </h1>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/" role="button"
+          >Back to resume</a
+        >
+      </p>
+    </div>
+
+    <%- include('./partials/footer.ejs')%>
+  </body>
+</html>
